@@ -33,7 +33,7 @@
 
 Name:           plexus-i18n
 Version:        1.0
-Release:        0.5.b10.4%{?dist}
+Release:        0.6.b10.4%{?dist}
 Summary:        Plexus I18N Component
 License:        ASL 2.0
 URL:            http://plexus.codehaus.org/plexus-components/plexus-i18n
@@ -97,6 +97,9 @@ Javadoc for %{name}.
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-0.6.b10.4
+- Mass rebuild 2013-12-27
+
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.0-0.5.b10.4
 - Migrate away from mvn-rpmbuild (#997436)
 
